@@ -37,17 +37,17 @@ const Details = () => {
         />
       </div>
       <div className=" rounded p-2">
-        <h1 className="text-6xl font-semibold  lg:text-[5rem]">
+        <h1 className="text-3xl font-semibold  lg:text-[5rem]">
           {burger.name}
         </h1>
         <hr />
-        <p className="text-3xl mt-2  lg:text-[2.8rem]">{burger.dsc}</p>
+        <p className="text-xl mt-2  lg:text-[2.8rem]">{burger.dsc}</p>
         <div className="flex justify-between items-center text-4xl mt-5 lg:text-[2.5rem]">
           <span className="text-green-400">₹ {burger.price}</span>
           <span className="text-yellow-500">⭐ {burger.rate}/5</span>
         </div>
         {item ? (
-          <div className="flex items-center gap-4 mt-5">
+          <div className="flex items-center gap-2 mt-5">
             <button
               onClick={() => dispatch(decreaseQuantity({ id: burger.id }))}
               className="px-4 py-2 bg-gray-300 rounded text-3xl"

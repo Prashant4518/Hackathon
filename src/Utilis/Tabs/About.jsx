@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="w-full text-gray-700 overflow-x-hidden bg-gradient-to-b from-yellow-100 to-red-100 mt-15">
+    <div className="w-full h-full text-gray-700 overflow-x-hidden bg-gradient-to-b from-yellow-100 to-red-100 mt-15">
       {/* Section 1 */}
       <div className="w-[90%]  bg-gradient-to-b from-yellow-100 to-red-100 mx-auto mt-20 grid grid-cols-1 md:grid-cols-2 gap-10 items-center animate-fade-in-up">
         <img
