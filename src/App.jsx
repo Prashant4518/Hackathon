@@ -5,7 +5,7 @@ import Routing from "./Utilis/Routing";
 const App = () => {
   return (
     <div
-      className="bg-black opacity-90 w-full  h-screen p-2 overflow-auto"
+      className=" h-screen w-full bg-gradient-to-b from-yellow-100 to-red-100 overflow-auto"
       style={{ scrollbarWidth: "none" }}
     >
       <Navbar />
