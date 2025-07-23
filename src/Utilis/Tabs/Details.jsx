@@ -28,8 +28,8 @@ const Details = () => {
   if (!burger) return <div className="text-white p-5">Loading...</div>;
 
   return (
-    <div className="h-full w-[90%]  m-auto shadow-[0.5px_1px_1px_1px_#fff]  rounded flex justify-center flex-col items-center sm:shadow-none lg:shadow-none lg:h-[calc(100vh-20vh)] lg:flex-row lg:gap-2 lg:mt-7.5">
-      <div>
+    <div className="h-full  w-[90%]  m-auto shadow-[0.5px_1px_1px_1px_#fff]   rounded  flex-col flex justify-center  items-center sm:shadow-none lg:shadow-none lg:h-[calc(100vh-20vh)] lg:flex-row lg:gap-2 lg:mt-7.5">
+      <div className="mt-20">
         <img
           className="hover:scale-102 transition-all ease-in-out duration-900 w-full h-[calc(100vh-50vh)] object-cover overflow-hidden rounded-2xl xl:h-[calc(100vh-40vh)]"
           src={burger.img}
