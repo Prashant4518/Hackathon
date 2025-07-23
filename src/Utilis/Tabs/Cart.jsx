@@ -15,14 +15,15 @@ const Cart = () => {
     (acc, item) => acc + item.price * item.quantity,
     0
   );
+if (!Array.isArray(items) || items.length === 0) {
+  return (
+    <div className="p-6 text-center text-2xl font-semibold text-gray-500 mt-20">
+      Your cart is empty 🛒
+    </div>
+  );
+}
 
-  if (items.length === 0) {
-    return (
-      <div className="p-6 text-center  text-2xl font-semibold text-gray-500">
-        Your cart is empty 🛒
-      </div>
-    );
-  }
+  
 
   return (
     <div className="p-6 max-w-3xl mx-auto text-gray-700 mt-20">
