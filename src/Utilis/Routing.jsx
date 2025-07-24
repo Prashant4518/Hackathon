@@ -7,14 +7,12 @@ import Product from "./Tabs/Product";
 import MainProducts from "./MainProducts";
 import Cart from "./Tabs/Cart";
 import Signup from "./Tabs/Signup";
-// import DarkMode from "./Tabs/Dark";
 
 const Routing = () => {
   return (
     <div>
       <Routes>
         <Route path="/" element={<Home />} />
-        {/* <Route path="/" element={<DarkMode />} /> */}
         <Route path="/about" element={<About />} />
         <Route path="/details/:id" element={<Details />} />
         <Route path="/product" element={<Product />} />

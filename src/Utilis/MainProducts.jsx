@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-// Utility functions
 const isNonVeg = (item) => {
   const keywords = [
     "chicken",
@@ -43,12 +42,12 @@ const MainProducts = ({ products, filter }) => {
     if (filter === "non-veg") return isNonVeg(item);
     if (filter === "meal") return isMeal(item);
     if (filter === "drink") return hasDrink(item);
-    return true; // 'all'
+    return true; 
   });
 
   return (
     <div
-      className="p-5 w-full bg-gradient-to-b from-yellow-100 to-red-100 overflow-y-auto h-screen rounded grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6"
+      className="p-5 w-full bg-gradient-to-b from-yellow-100 to-red-100 overflow-y-auto h-screen rounded grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6"
       style={{ scrollbarWidth: "none" }}
     >
       {filteredProducts.slice(8, 60).map((burger) => (

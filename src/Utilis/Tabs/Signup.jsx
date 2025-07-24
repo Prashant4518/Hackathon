@@ -15,7 +15,6 @@ const Signup = () => {
     e.preventDefault();
     console.log("Sign up form data:", form);
 
-    // TODO: Add actual signup logic here (Firebase or API)
   };
 
   return (

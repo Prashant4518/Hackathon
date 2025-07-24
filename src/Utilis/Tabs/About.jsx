@@ -1,9 +1,10 @@
 import React from "react";
+import Footer from "../Footer";
 
 const About = () => {
   return (
     <div className="w-full h-full text-gray-700 overflow-x-hidden bg-gradient-to-b from-yellow-100 to-red-100 mt-15">
-      {/* Section 1 */}
+
       <div className="w-[90%]  bg-gradient-to-b from-yellow-100 to-red-100 mx-auto mt-20 grid grid-cols-1 md:grid-cols-2 gap-10 items-center animate-fade-in-up">
         <img
           src="https://www.mrbeastburger.com/wp-content/uploads/mrbeast-mrbeast-burger.png"
@@ -34,7 +35,6 @@ const About = () => {
         </div>
       </div>
 
-      {/* Section 2 */}
       <div className="w-[90%] text-gray-700 bg-gradient-to-b from-yellow-100 to-red-100 mx-auto mt-16 grid grid-cols-1 md:grid-cols-2 gap-10 items-center animate-fade-in-up">
         <div>
           <h1 className=" text-4xl sm:text-5xl font-bold mb-4">MR BEAST</h1>
@@ -65,6 +65,7 @@ const About = () => {
           className="w-full h-auto rounded-lg shadow-xl object-cover"
         />
       </div>
+      <Footer />
     </div>
   );
 };

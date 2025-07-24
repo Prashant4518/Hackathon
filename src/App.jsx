@@ -10,7 +10,6 @@ const App = () => {
       style={{ scrollbarWidth: "none", fontFamily: "myfont" }}
     >
       <Navbar />
-
       <Routing />
     </div>
   );
