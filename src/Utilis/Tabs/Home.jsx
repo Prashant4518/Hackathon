@@ -24,7 +24,7 @@ const Home = () => {
               initial={{ scale: 0.8 }}
               animate={{ scale: 1 }}
               transition={{ duration: 0.6, ease: "easeOut" }}
-              className="text-3xl mt-14 sm:text-4xl md:text-5xl lg:text-6xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-yellow-500 via-red-500 to-pink-500 drop-shadow-md"
+              className="text-3xl mt-20 sm:text-4xl md:text-5xl lg:text-6xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-yellow-500 via-red-500 to-pink-500 drop-shadow-md"
             >
               🍔 Welcome to Beast Burger
             </motion.h1>
